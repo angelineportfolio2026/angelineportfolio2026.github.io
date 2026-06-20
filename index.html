@@ -1135,7 +1135,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <a href="assets/img/portfolio/gd-63a.jpg" 
                     data-gallery="portfolioGallery"   
                     class="portfolio-lightbox" 
-                    title="Created at Mad Monkey during my time as a Graphic Designer, I developed this Halloween concept, which included poster and TV-size versions. The team provided photos from their café photoshoot featuring pastries and drinks, which I recreated using AI and transformed with Halloween-themed elements. I added pumpkins, glowing pumpkin eyes, candles, cobwebs, spiders, and other details to give both the pastries and drinks a stronger Halloween vibe. This project involved a challenging process, as I needed to recreate Mad Monkey's actual pastries and drinks from the provided photos. I also enhanced the colors, made the food more visually appealing to customers, and applied additional photo manipulation in Photoshop. Tools Used: Adobe Photoshop, Freepik, Gemini, ChatGPT">
+                    data-description="Created at Mad Monkey during my time as a Graphic Designer, I developed this Halloween concept, which included poster and TV-size versions. The team provided photos from their café photoshoot featuring pastries and drinks, which I recreated using AI and transformed with Halloween-themed elements. I added pumpkins, glowing pumpkin eyes, candles, cobwebs, spiders, and other details to give both the pastries and drinks a stronger Halloween vibe. This project involved a challenging process, as I needed to recreate Mad Monkey's actual pastries and drinks from the provided photos. I also enhanced the colors, made the food more visually appealing to customers, and applied additional photo manipulation in Photoshop. Tools Used: Adobe Photoshop, Freepik, Gemini, ChatGPT">
                   <i class="bi bi-fullscreen"></i>
                   </a>
                 </div>
@@ -2228,9 +2228,19 @@ document.addEventListener("DOMContentLoaded", function () {
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
   <script src="assets/js/main.js"></script>
-
+ 
+<script>
+/**
+ * Portfolio lightbox
+ */
+const portfolioLightbox = GLightbox({
+  selector: '.portfolio-lightbox',
+  touchNavigation: true,
+  loop: true
+});
+</script>
+ 
 </body>
 
 </html>
