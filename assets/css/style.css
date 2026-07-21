@@ -1711,6 +1711,37 @@ section {
 }
 
 /*--------------------------------------------------------------
+# PDF and Linkedin
+--------------------------------------------------------------*/
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.resume-link,
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.resume-link i,
+.linkedin-link i {
+  font-size: 25px;
+  color: #d90429;
+}
+
+.resume-link span,
+.linkedin-link span {
+  font-size: 21px;
+  text-align: center;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
